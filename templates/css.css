@@ -1,19 +1,4 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <title>{% block title %}Welcome!{% endblock %}</title>
-        <link href="https://bootswatch.com/4/lux/bootstrap.min.css" rel="stylesheet">
-        {# Run `composer require symfony/webpack-encore-bundle` to start using Symfony UX #}
-        {% block stylesheets %}
-        
-            {{ encore_entry_link_tags('app') }}
-        {% endblock %}
-
-        
-    </head>
-    <body>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
             <div class="container-fluid">
               <a class="navbar-brand" href="#">Navbar</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
@@ -53,32 +38,3 @@
               </div>
             </div>
           </nav>
-    </body>
-
-
-
-
-        
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        
-        {% block body %}{% endblock %}
-    </body>
-</html>
