@@ -57,13 +57,14 @@ a:hover {
 
 }
 .index{ 
-  width: 800px;
+  width: 100%;
   margin: 0 auto;
   margin-top: 0px;
+  background-image: image-set("sombre.jpg")
 }
 .plus {
   width: 200%;
-  margin-top: 600px;
+  
 }
 *{
   box-shadow:none;
@@ -132,4 +133,9 @@ a:hover {
  :-ms-input-placeholder {  
     text-align:center;
  }
+.indexpic{
+  max-width: 300px;
+}
+
+
  

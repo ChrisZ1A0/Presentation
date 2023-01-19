@@ -56,13 +56,18 @@
     background-color: #a3a3a3;
   
   }
-*::before {
+  .cv{
+    margin-top: 100px;
+    width: 100%;
+    background-color: darkslategrey ;
+  }
+  *::before {
     margin: 0;
     padding: 0;
     font: inherit;
     box-sizing: border-box;
 }
-hml {
+html {
     height: -webkit-fill-available;
 }
 :root {
@@ -322,3 +327,4 @@ body {
     background-color: var(--primary--accent);
     height: 3em;
 }
+
