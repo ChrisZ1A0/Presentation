@@ -33,78 +33,33 @@
         <fieldset class="fullLine" legend="Inputs">
         <p>
           <label for="name">NOM: </label>
-          <input type="NOM" name="nom" id="name" size="30" maxlength="10" />
+          <input type="NOM" name="nom" id="name" size="30" maxlength="10" placeholder="NOM" required />
         </p>
         
         <p>
           <label for="pwd">PRENOM: </label>
-          <input type="PRENOM" name="nom" id="pwd" size="30" maxlength="10" />
+          <input type="PRENOM" name="nom" id="pwd" size="30" maxlength="10" placeholder="PRENOM" required />
         </p>
         
         
         <p>
           <label for="mail">Email:</label>
-          <input type="email" id="mail" placeholder="mail"/>
+          <input type="email" id="mail" placeholder="mail" required/>
         </p>
         
         
         
         <p>
           <label for="tel">Tel:</label>
-          <input type="tel" id="tel" placeholder="tel"/>
-        </p>
-        
-        
-        <p>
-          <label for="date">Date:</label>
-          <input type="date" id="date" placeholder="date"/>
-        </p>
-        
-       
+          <input type="tel" id="tel" placeholder="tel" required/>
+        </p> 
+
         </fieldset>
         <br/>
-        <fieldset>
-        <p>
-          <label>Checkboxes:</label><br/>
-          <input type="checkbox" name="truc" id="rouge" checked/>
-          <label for="rouge" >Rouge</label>
-          
-          <input type="checkbox" name="truc" id="vert"/>
-          <label for="vert">Vert</label>
-        </p>
         
-        <p>
-          <label>Radio button:</label><br/>
-           Indiquez la tranche d'âge dans laquelle vous vous situez :<br />
-    
-           <input type="radio" name="age" value="moins15" id="moins15" /> <label for="moins15">Moins de 15 ans</label><br />
-    
-           <input type="radio" name="age" value="medium15-25" id="medium15-25" /> <label for="medium15-25">15-25 ans</label><br />
-    
-           <input type="radio" name="age" value="medium25-40" id="medium25-40" checked/> <label for="medium25-40">25-40 ans</label><br />
-    
-           <input type="radio" name="age" value="plus40" id="plus40" /> <label for="plus40">Encore plus vieux que ça ?!</label>
-    
-       </p>
-       
-       <p>
-         <label> Selectionner votre pays: </label>
-         <select name="pays" id="pays">
-           <optgroup label="Europe">
-             <option value="fra">France</option>
-             <option value="gb">Angleterre</option>
-             <option value="de">Allemagne</option>
-           </optgroup>
-           <optgroup label="Pacifique">
-             <option value="nc">Nouvelle-Calédonie</option>
-             <option value="th">Tahiti</option>
-           </optgroup>
-         </select>
-       </p>
-       </fieldset>
         
-          <input type="Submit" value="Telecharger" id="submit"/>
-        
+          <input type="Submit" value="Telecharger"  id="submit" required/>
+         
         
       </form>
     </section>

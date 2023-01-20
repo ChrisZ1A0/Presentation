@@ -62,13 +62,7 @@ a:hover {
   margin-top: 0px;
   background-image: image-set("sombre.jpg")
 }
-.plus {
-  width: 200%;
-  
-}
-*{
-  box-shadow:none;
- }
+
  
  form{
    border-radius:50px 0 50px 0;
@@ -136,6 +130,12 @@ a:hover {
 .indexpic{
   max-width: 300px;
 }
-
+.chris{
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 0px;
+  
+ 
+}
 
  
